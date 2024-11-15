@@ -1,4 +1,43 @@
 <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div>
+            <h1>Contacto</h1>
+        </div>
+    </header>
+    
+    <main>
+        <form action="https://formspree.io/f/mwpkbqvj" method="post">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Escriba su nombre" required maxlength="30" minlength="8">
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="Escriba su password" required maxlength="30" minlength="8" pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[A-Za-z\d]{8,}">
+
+            <label for="Mail">Correo Electrónico</label>
+            <input type="email" id="Mail" name="Mail" placeholder="Escriba su correo" required maxlength="35" minlength="8">
+
+            <label for="edad">Edad</label>
+            <input type="number" id="edad" name="edad" placeholder="Escriba su edad" required max="99" min="10">
+
+            <label for="archivo">Archivo</label>
+            <input type="file" id="archivo" name="archivo">
+
+            <button type="submit">Enviar Consulta</button>
+        </form>
+    </main>
+</body>
+</html>
+
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -18,7 +57,7 @@
         <br>
         <label for="password">password</label>
         <input type="password" id="password" name="password" placeholder="escriba su password" required maxlength="30" minlength="8" 
-pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[A-Za-z\d]{8,}">
+         pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[A-Za-z\d]{8,}">
 
         <br>
         <label for="">Mail</label>
@@ -26,7 +65,7 @@ pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[A-Za-z\d]{8,}">
         maxlength="35" minlength="8" >
         <br>
         <label for="">edad</label>
-        <input type="number" id="edad" name="edad  placeholder="escriba su edad" required
+        <input type="number" id="edad" name="edad"  placeholder="escriba su edad "  required
         max="99" min="10">
         <br>
         <label for="">Archivo</label>
@@ -34,4 +73,4 @@ pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[A-Za-z\d]{8,}">
         <input type="submit" placeholder="enviar consulta">
     </form>
 </body>
-</html>
+</html> -->
