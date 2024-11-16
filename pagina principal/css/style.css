@@ -97,6 +97,12 @@ gap: 10px;
     height: 100%;
     object-fit: cover;
 }
+footer {
+    text-align: center;
+    background-color: #3a261e;
+    color: #fff;
+    padding: 10px;
+}
 /* .footer {
     background-color: #333;
     color: #fff;
