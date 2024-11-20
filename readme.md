@@ -1,6 +1,6 @@
 # Fecateria Coffee
 
-Este proyecto es un sitio web de una cafetería ficticia llamado "Fecateria Coffee". El propósito de la página es mostrar información sobre la tienda, franquicias, tips de café, y permitir a los usuarios contactarse mediante un formulario. El sitio utiliza Bootstrap para la responsividad y está diseñado con HTML y CSS.
+Este proyecto es un sitio web de una cafetería ficticia llamado "Fecateria Coffee". El propósito de la página es mostrar información sobre la tienda, productos, tips de café, y permitir a los usuarios contactarse mediante un formulario. El sitio utiliza Bootstrap para la responsividad y está diseñado con HTML y CSS.
 
 ## Estructura del Proyecto
 - **index.html**: Página principal.
