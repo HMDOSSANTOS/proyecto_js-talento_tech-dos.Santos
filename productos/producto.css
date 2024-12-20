@@ -17,7 +17,7 @@
   header {
     background-color: #f24c00;
     color: #fff;
-    padding: 10px 20px;
+    padding: 30px 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -60,20 +60,20 @@
     padding: 20px 0;
     text-align: center;
   }
-  
+
   .carrito-flotante {
     position: fixed;
-    top: 20px;
+    top: 80px;
     right: 20px;
-    width: 320px;
-    background-color: #fff;
+    width: 150px;
+    background-color:white;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
     border-radius: 8px;
     z-index: 1000;
     display: flex;
     flex-direction: column;
   }
-  
+   
   .carrito-icono {
     background-color: #f24c00;
     color: #fff;
@@ -89,12 +89,12 @@
   }
   
   .carrito-contenido {
-    padding: 10px;
+    padding: 0px;
     display: none;
   }
   
   .carrito-contenido.visible {
-    display: block;
+    display:block ;
   }
   
   .carrito-item {
@@ -173,7 +173,7 @@
   
   .producto-card h3 {
     color: #f24c00;
-    margin: 10px 0;
+    margin: 5px 0;
   }
   
   .btn-agregar {
