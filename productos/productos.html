@@ -3,56 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Productos</title>
+    <title>Catálogo de Productos</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="producto.css">
     <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <div>
-            <h1>Nuestros Productos</h1>
+        <div class="logo">
+            <h1>Fecateria Coffee</h1>
         </div>
         <nav>
             <ul>
                 <li><a href="../index.html">Inicio</a></li>
                 <li><a href="../contacto/contacto.html">Contacto</a></li>
                 <li><a href="../tips/tips.html">Tips</a></li>
-                <li><a href="../ustedes/ustedes.html">ustedes</a></li>
+                <li><a href="../ustedes/ustedes.html">Ustedes</a></li>
             </ul>
         </nav>
     </header>
-
     <main>
         <section class="productos-section">
             <h2>Catálogo de Productos</h2>
             <div class="productos-container">
-                <!-- Producto 1 -->
-                <div class="producto-card">
-                    <img src="img/producto1.jpg" alt="Producto 1">
-                    <h3>Producto 1</h3>
-                    <p class="precio">$15.00</p>
-                    <button class="btn-agregar">Agregar al carrito</button>
-                </div>
-                <!-- Producto 2 -->
-                <div class="producto-card">
-                    <img src="img/producto2.jpg" alt="Producto 2">
-                    <h3>Producto 2</h3>
-                    <p class="precio">$25.00</p>
-                    <button class="btn-agregar">Agregar al carrito</button>
-                </div>
-               
-                <div class="producto-card">
-                    <img src="img/producto3.jpg" alt="Producto 3">
-                    <h3>Producto 3</h3>
-                    <p class="precio">$35.00</p>
-                    <button class="btn-agregar">Agregar al carrito</button>
-                </div>
             </div>
         </section>
-    </main>
 
+        <div class="carrito-flotante" id="carrito-flotante">
+            <div class="carrito-icono" id="carrito-icono">
+                🛒 <span id="contador-carrito">0</span>
+            </div>
+            <div class="carrito-contenido" id="carrito-contenido">
+                <div id="carrito-container">
+           
+                </div>
+                <div class="carrito-total">
+                    <p>Total: $<span id="total-carrito">0</span></p>
+                    <button id="btn-comprar" class="btn-comprar">Comprar</button>
+                    <button id="btn-vaciar" class="btn-vaciar">Vaciar Carrito</button>
+                </div>
+            </div>
+        </div>
+    </main>
     <footer>
-        <p>&copy; 2024 - Proyecto JS</p>
+        <p>&copy; 2024 Fecateria Coffee. Todos los derechos reservados | Maximiliano dos Santos</p>
     </footer>
+    <script src="../js/script.js"></script>
 </body>
 </html>
